@@ -1,0 +1,54 @@
+// :active :hover :focus :visited :focus-visible :focus-visible
+
+// 鼠标 hover 样式
+.hover-fc-border_primary:hover div,
+.hover-fc-border_primary:hover span,
+.hover-fc-border_primary:hover svg {
+  transition: color 0.2s;
+  color: @primary;
+  border-color: @primary;
+}
+
+.hover-fc_opacity_white {
+  &:hover {
+    color: @white;
+    opacity: 0.85;
+    transition: all 0.2s;
+  }
+}
+
+.hover-bg-color_e6e6e7:hover {
+  background-color: @e6e6e7;
+  transition: all 0.2s;
+}
+
+.hover-box_shadow:hover {
+  box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1);
+  transition: all 0.2s;
+}
+
+.hover-fc_primary {
+  &:hover {
+    color: @primary;
+  }
+}
+
+.hover-border-color_primary {
+  &:hover {
+    border-color: @primary;
+  }
+}
+
+.hover-bg-color_ecf5ff {
+  &:hover {
+    background-color: @ecf5ff;
+    transition: all 0.2s;
+  }
+}
+
+.hover-img_scale {
+  &:hover {
+    transition: all 0.2s;
+    transform: scale(1.1);
+  }
+}

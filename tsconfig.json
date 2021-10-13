@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "types": [
+      "@dcloudio/types",
+      "miniprogram-api-typings",
+      "mini-types"
+    ]
+  },
+  "exclude": ["node_modules", "dist", "**/*.js", "**/*.json"]
+}

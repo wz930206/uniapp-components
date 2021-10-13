@@ -1,0 +1,27 @@
+// 阴影 模板
+.custom_shadow(@box_shadow, @transition) {
+  box-shadow: @box_shadow;
+  transition: @transition;
+}
+// 自定义 有 背景色和宽高的 矩形 模板
+.custom-rectangle--size--bg(@width, @height, @background) {
+  width: @width;
+  height: @height;
+  line-height: @height;
+  background-color: @background;
+}
+// 自定义弹窗 模板
+.custom_dialog_modal(@position, @top, @left, @z_index) {
+  position: @position;
+  top: @top;
+  left: @left;
+  z-index: @z_index;
+}
+// padding
+.custom_padding(...) {
+  padding: @arguments;
+}
+.custom_size(@width_size, @height_size) {
+  width: @width_size;
+  height: @height_size;
+}
